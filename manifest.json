@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube India Channel Blocker",
+  "version": "1.2",
+  "description": "Blocks YouTube channels from India by scanning channel metadata in real time.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
