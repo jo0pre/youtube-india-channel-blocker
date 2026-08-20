@@ -1,11 +1,9 @@
 {
   "manifest_version": 3,
   "name": "YouTube India Channel Blocker",
-  "version": "1.2",
-  "description": "Blocks YouTube channels from India by scanning channel metadata in real time.",
-  "icons": {
-    "128": "icon.png"
-  },
+  "version": "1.3",
+  "description": "Automatically detects and hides YouTube channels based in India from your feed.",
+  "homepage_url": "https://jo0pre.github.io/portfolio/",
   "permissions": ["storage"],
   "host_permissions": ["https://www.youtube.com/*"],
   "content_scripts": [
